@@ -6,7 +6,7 @@
                 <img class="logo" src="{{ asset('assets/img/task/Screenshot_2.png') }}" alt="" srcset="">
                 <a class="navbar-brand" href="#">BORCELLE</a>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=""><i class="fa-solid fa-bars"></i></span>
             </button>
