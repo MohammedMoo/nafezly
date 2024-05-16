@@ -82,6 +82,13 @@ section.mainShop {
         width: 88%;
         font-size: small;
     }
+
+}
+@media (max-width:800px) {
+    .navbar .nav-link:hover{
+        transform: unset;
+        transform: scaleY(1.1);
+    }
 }
 .owl-item .card {
     display: flex;
