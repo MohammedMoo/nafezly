@@ -1,0 +1,162 @@
+nav .container-fluid {
+    direction: ltr;
+}
+section.mainShop {
+    background-color: rgb(245 244 242);
+}
+.mainShop .mainTitle {
+    text-align: center;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.mainShop .mainTitle::after {
+    content: "";
+    width: 96%;
+    height: 1px;
+    position: absolute;
+    bottom: 10px;
+    background-color: rgb(49 35 28);
+    box-shadow: 0px 0px 0px 0.5px gray;
+    border-radius: 100%;
+}
+.mainTitle span {
+    text-align: center;
+    direction: ltr;
+    width: 62%;
+    font-weight: bold;
+}
+.mainTitle h1 {
+    font-size: xxx-large;
+    color: rgb(49 35 28);
+    font-style: italic;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar::after{
+    content: "";
+    width: 96%;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(49 35 28);
+    box-shadow: 0px 0px 0px 0.5px gray;
+    border-radius: 100%;
+}
+.navbar .logoTitle {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.navbar .logoTitle a.navbar-brand {
+    color: #31231c;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.navbar .navbar-nav {
+    direction: ltr;
+}
+.navbar .nav-link{
+    transition: .5s;
+}
+.navbar .nav-link:hover{
+    transform: scale(1.2);
+    color: #896448 !important;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .navbar .logoTitle a.navbar-brand{
+        font-size: x-large;
+    }
+    .mainTitle h1 {
+        font-size: xx-large;
+    }
+    .mainTitle span {
+        width: 88%;
+        font-size: small;
+    }
+}
+.owl-item .card {
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    align-items: center;
+}
+.owl-item .card img {
+    height: 260px;
+}
+.owl-item .card .titleImg {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(47 34 33);
+}
+.owl-item .card .price {
+    text-align: center;
+    font-size: larger;
+}
+.owl-item .card button {
+    text-align: center;
+    width: 60%;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    justify-content: space-around;
+    background-color: #d2c8c0;
+    font-weight: bold;
+    transition: 1s;
+}
+.owl-item .card button:hover {
+    transform: scale(0.9);
+    background-color: #7d7a78;
+    color: white;
+}
+.owl-nav button span {
+    display: none;
+}
+.owl-nav button img {
+    height: 50px;
+}
+@media (max-width: 800px) {
+    .owl-nav button img {
+        height: 35px;
+    }
+}
+.owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    left: -57px;
+    rotate: 180deg;
+    display: flex;
+    align-items: center;
+    transform: scaleY(1.5);
+    transition: 0.5s;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    right: -57px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    transform: scaleY(1.5);
+}
+.owl-nav .owl-prev:hover {
+    right: -60px;
+}
+.owl-nav .owl-next:hover {
+    left: -60px;
+}
+@media (max-width: 500px) {
+    .owl-nav button {
+        display: none !important;
+    }
+}
