@@ -155,7 +155,7 @@ section.mainShop {
 .owl-nav .owl-next:hover {
     left: -60px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .owl-nav button {
         display: none !important;
     }
